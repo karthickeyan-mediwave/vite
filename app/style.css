@@ -1,3 +1,32 @@
+body {
+  background: aliceblue;
+}
+.img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+#imgid {
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+}
 #app {
+  width: 350px;
+  margin: 10px auto;
   text-align: center;
+}
+#btn {
+  background: dodgerblue;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px 0 5px 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+#load {
+  text-align: center;
+  font-size: 50px;
+  display: none;
 }
